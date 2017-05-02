@@ -1,0 +1,13 @@
+#main-navbar {
+    .w3-bar {
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+
+    @media (max-width: $SMALL) {
+        .w3-bar .w3-bar-item {
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.parallax {
+    .w3-wide {letter-spacing: 10px;}
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#home {
+    @media (max-width: 320px) {
+        .w3-wide {
+            letter-spacing: 3px;
+        }
+
+        h1{
+            font-size: 28px !important;
+        }
+
+        h2 {
+            font-size: 22px;
+        }
+    }
+
+    
+    @media (min-width: 321px) and (max-width: 660px) {
+        .w3-wide {
+            letter-spacing: 5px;
+        }
+        
+        h1{
+            font-size: 36px !important;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+    }
+}
+
+
+    

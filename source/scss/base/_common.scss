@@ -1,0 +1,67 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Exo 2', sans-serif;}
+body, html {
+    height: 100%;
+    color: #444;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+p, ul {
+    font-size: 1.25rem;
+    font-weight: 200;
+}
+
+.bold {
+    font-weight: 300;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* vros-orange: #ff7043 */
+.vros-bg-orange {
+    background-color: rgba(255, 112, 67, 0.8);
+}
+
+.vros-card-bg-orange {
+    background-color: #ff7043 !important;
+}
+
+.w3-text-orange {
+    color: #ff7043 !important;
+}
+
+.w3-greatevibes {
+    font-family: "Greate Vibes", cursive;
+}
+
+.w3-exo-2 {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.float-right {
+    float: right !important;
+}
+
+.clear-fix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.icon-btn {
+    padding: 0;
+}
